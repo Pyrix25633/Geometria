@@ -31,6 +31,7 @@ Se $\underline{v}\neq 0$ la normalizzazione di $\underline{v}$ è definita come
 $$\begin{flalign}\frac{\underline{v}}{|\underline{v}|} &&\end{flalign}$$
 
 # Prodotto scalare di due vettori geometrici
+Il prodotto scalare è lo scalare
 $\underline{v}\cdot  \underline{w}=|\underline{v}|\cdot |\underline{w}|\cdot \cos(\sigma)$
 $\underline{v}\cdot  \underline{w}=x_{1}x_{2}+y_{1}y_{2}+z_{1}z_{2}$
 
@@ -42,8 +43,19 @@ Sia $\underline{e}$ un versore, la proiezione ortogonale di $\underline{v}$ su $
 Se $\underline{w}$ è un vettore qualunque, la proiezione ortogonale di $\underline{v}$ su $\underline{w}$ è la proiezione di $\underline{v}$ sulla normalizzazione di $\underline{w}$, ovvero
 $$\begin{flalign}\left( \underline{v}\cdot  \frac{\underline{w}}{|\underline{w}|} \right)\cdot\frac{\underline{w}}{|\underline{w}|}=\left( \underline{v}\cdot  \frac{\underline{w}}{|\underline{w}|^{2}} \right)\underline{w} &&\end{flalign}$$
 
+# Prodotto vettoriale
+Il prodotto vettoriale $\underline{v}\times  \underline{w}$ è:
+- il vettore nullo $\underline{0}$ se $\underline{v}$ e $\underline{w}$ sono paralleli o uno o entrambi sono nulli
+- $\underline{u} \in V^{3}$ tale che:
+	- modulo: $|\underline{u}|=|\underline{v}||\underline{w}|\cos(\sigma)$
+	- direzione: ortogonale a $\underline{v}$ e $\underline{w}$
+	- verso: dato dalla "regola della mano destra"
+$\underline{v}\times  \underline{w}=(v_{2}w_{3}-v_{3}w_{2},\;v_{3}w_{1}-v_{1}w_{3},\;v_{1}w_{2}-v_{2}w_{1})$
+# Prodotto misto
+Il prodotto misto è lo scalare $\underline{v}\cdot(\underline{w}\times  \underline{u})$
+
 # Punto in coordinate
 Ad ogni punto $A$ è definito da una terna di coordinate $A=(x,y,z)$
 
 # Vettore geometrico in coordinate
-$\underline{v}=\overrightarrow{AB}=(x_{B}-x_{A},y_{B}-y_{A},z_{B}-z_{A})$
+$\underline{v}=\overrightarrow{AB}=(x_{B}-x_{A},\;y_{B}-y_{A},\;z_{B}-z_{A})$
