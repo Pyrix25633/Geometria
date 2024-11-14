@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Basi"
             }
+          },
+          {
+            "id": "9a47563245a5d24e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -206,10 +220,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06db493be32610fb",
+  "active": "0d0511e8b72fdb96",
   "lastOpenFiles": [
-    "Dipendenza-indipendenza lineare.md",
+    "Determinante.md",
     "Basi.md",
+    "Dipendenza-indipendenza lineare.md",
     "Spazi vettoriali.md",
     "README.md",
     "Matrici e sistemi lineari.md",
