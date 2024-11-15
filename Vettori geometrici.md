@@ -51,11 +51,31 @@ Il prodotto vettoriale $\underline{v}\times  \underline{w}$ è:
 	- direzione: ortogonale a $\underline{v}$ e $\underline{w}$
 	- verso: dato dalla "regola della mano destra"
 $\underline{v}\times  \underline{w}=(v_{2}w_{3}-v_{3}w_{2},\;v_{3}w_{1}-v_{1}w_{3},\;v_{1}w_{2}-v_{2}w_{1})$
+
+Se $\underline{v},\underline{w}\neq \underline{0}$  e non paralleli $\implies |\underline{v}\times \underline{w}|$ è l'area del parallelogramma individuato da $\underline{v}$ e $\underline{w}$
+Dimostrazione:
+$h=|\underline{w}|\sin(\sigma),\;b=|\underline{v}|\implies b\cdot h=|\underline{v}||\underline{w}|\sin(\sigma)$
+
+Proprietà:
+- Anticommutativa: $\underline{v}\times \underline{w}=-\underline{w}\times \underline{v}$
+- Associativa: $(\lambda \underline{v})\times \underline{w}=\underline{v}\times(\lambda \underline{w})=\lambda(\underline{v}\times \underline{w})$
+- Distributiva: $(\underline{v}+\underline{w})\times \underline{u}=\underline{v}\times \underline{u}+\underline{w}\times \underline{u}$
+- Distributiva: $\underline{v}\times(\underline{w}+\underline{u})=\underline{v}\times \underline{w}+\underline{v}\times \underline{w}$
+
 # Prodotto misto
 Il prodotto misto è lo scalare $\underline{v}\cdot(\underline{w}\times  \underline{u})$
+
+Se $\underline{v},\underline{w},\underline{u}\neq\underline{0}$ e non paralleli $\implies |\underline{v}\cdot(\underline{w}\times \underline{u})|$ è il volume del parallelepipedo individuato da $\underline{v}$, $\underline{w}$ e $\underline{u}$
+Dimostrazione:
+$S=(\underline{w}\times \underline{u}),\;h=|\underline{v}|\cos(\sigma) \implies S\cdot h=|\underline{w}\times \underline{u}||\underline{v}|\cos(\sigma)$
 
 # Punto in coordinate
 Ad ogni punto $A$ è definito da una terna di coordinate $A=(x,y,z)$
 
 # Vettore geometrico in coordinate
 $\underline{v}=\overrightarrow{AB}=(x_{B}-x_{A},\;y_{B}-y_{A},\;z_{B}-z_{A})$
+
+$\underline{i},\underline{j},\underline{k}$ sono i versori degli assi cartesiani a due a due ortogonali: $\underline{i}\cdot \underline{j}=\underline{i}\cdot \underline{k}=\underline{j}\cdot \underline{k}=0$
+$\underline{v}=x\underline{i}+y\underline{j}+z\underline{k}$
+
+$\underline{i}\times \underline{j}=\underline{w},\;\underline{j}\times \underline{i}=-\underline{w}$

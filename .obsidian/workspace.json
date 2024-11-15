@@ -41,20 +41,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dipendenza-indipendenza lineare.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dipendenza-indipendenza lineare"
-            }
-          },
-          {
-            "id": "06db493be32610fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Basi.md",
                 "mode": "source",
                 "source": false
@@ -64,21 +50,21 @@
             }
           },
           {
-            "id": "9a47563245a5d24e",
+            "id": "06db493be32610fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Determinante.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Determinante"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a0752b1c32768190",
@@ -220,16 +207,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d0511e8b72fdb96",
+  "active": "06db493be32610fb",
   "lastOpenFiles": [
-    "Determinante.md",
     "Basi.md",
     "Dipendenza-indipendenza lineare.md",
-    "Spazi vettoriali.md",
-    "README.md",
-    "Matrici e sistemi lineari.md",
-    "Distanza.md",
+    "Determinante.md",
     "Vettori geometrici.md",
+    "Matrici e sistemi lineari.md",
+    "README.md",
+    "Spazi vettoriali.md",
+    "Distanza.md",
     "Formulario formattato.md",
     "Formulario.md",
     "Numeri complessi.md",
