@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vettori geometrici.md",
+                "file": "Funzioni lineari.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vettori geometrici"
+              "title": "Funzioni lineari"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basi.md",
+                "file": "Determinante.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basi"
+              "title": "Determinante"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "Determinante"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,13 +205,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54ec2668bad61f90",
+  "active": "0d0511e8b72fdb96",
   "lastOpenFiles": [
-    "Dipendenza-indipendenza lineare.md",
-    "Matrici e sistemi lineari.md",
-    "Basi.md",
-    "Determinante.md",
     "Vettori geometrici.md",
+    "Dipendenza-indipendenza lineare.md",
+    "Determinante.md",
+    "Matrici e sistemi lineari.md",
+    "Funzioni lineari.md",
+    "Basi.md",
     "README.md",
     "Spazi vettoriali.md",
     "Distanza.md",

@@ -26,3 +26,17 @@ $\mathrm{C}(A)=\mathrm{Span}(\underline{c}_{1},\dots,\underline{c}_{n})\subset \
 $\mathrm{R}(A)=\mathrm{Span}(\underline{r}_{1},\dots,\underline{r}_{m})\subset \mathbb{R}^{n}$ è lo spazio delle righe di $A$
 $\mathrm{dim}(\mathrm{C}(A))=\mathrm{dim}(\mathrm{R}(A))=\mathrm{rg}(A)$
 Dimostrazione:
+- $A$ a scalini: $\mathrm{rg}(A)=d$, $\{ \underline{r}_{1},\dots,\underline{r}_{d} \}$ è un insieme di generatori di $\mathrm{R}(A)$, inoltre sono linearmente indipendenti
+- Se $A$ non è a scalini, sia $A'$ una sua forma a scalini $\implies \mathrm{R}(A)=\mathrm{R}(A')$:
+	- Le righe di $A'$ sono combinazioni lineari delle righe di $A$, quindi $\mathrm{R}(A')\subset \mathrm{R}(A)$
+	- Le righe di $A$ sono combinazioni lineari delle righe di $A'$ poiché le operazioni elementari sono tutte reversibili, quindi $\mathrm{R}(A)\subset \mathrm{R}(A')$
+
+# Coordinate
+$V\neq \{ \underline{0} \}$ spazio vettoriale finitamente generato, $B=\{ \underline{b}_{1},\dots,\underline{b}_{n} \}$ base di $V$
+$$\begin{flalign}\underline{v}\in V\implies \underline{v}=\sum_{i=1}^{n} v_{i}\underline{b}_{i} &&\end{flalign}$$
+Gli scalari $v_{1},\dots,v_{n}\in \mathbb{R}$ sono detti coordinate di $\underline{v}$ rispetto alla base $B$
+$T_{B}:V\to \mathbb{R}^{n},\;T_{B}(\underline{v})=(v_{1},\dots,v_{n})$ è una funzione che associa ad ogni $\underline{v}\in V$ una ennupla, ossi ail vettore delle coordinate di $\underline{v}$ rispetto a $B$
+
+$T_{B}$ è biunivoca e lineare
+
+$\{ \underline{v}_{1},\dots,\underline{v}_{m} \}\subset V$ è linearmente indipendente/sistema di generatori/base $\iff \{ T_{B}(\underline{v}_{1}),\dots,T_{B}(\underline{v}_{m}) \}\subset \mathbb{R}^{n}$ è linearmente indipendente/sistema di generatori/base

@@ -6,3 +6,4 @@
 - [Dipendenza-indipendenza lineare](Dipendenza-indipendenza%20lineare.md)
 - [Basi](Basi.md)
 - [Determinante](Determinante.md)
+- [Funzioni lineari](Funzioni%20lineari.md)
