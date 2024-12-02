@@ -72,6 +72,10 @@ $$\begin{flalign}c_{ik}=\sum_{j=1}^{n} a_{ij}\cdot b_{jk} &&\end{flalign}$$
 
 ### Identità
 $I_{m}=[\delta_{ij}]$ è la matrice quadrata di ordine $m\times m$ dove
+$$\begin{flalign}\delta_{ij}:=\begin{cases}
+1,\;i=j \\
+0,\;i\neq j
+\end{cases} &&\end{flalign}$$
 
 # Matrice associata al sistema lineare
 Ad un sistema lineare si possono associare tre matrici:
