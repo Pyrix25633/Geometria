@@ -47,15 +47,51 @@ Le soluzioni del polinomio caratteristico sono $\lambda_{1},\dots,\lambda_{n}$, 
 Siccome $f(\underline{b}_{i})=\lambda \underline{b}_{i}\implies \underline{b}_{i}$ sono gli autovettori
 
 # Come determinare gli autovettori
-$\lambda_{i}$ autovalore di $f$, $E(\lambda_{i})=\{ \underline{x}\in V:f(\underline{x})=\lambda_{i} \underline{x} \}$
+$\lambda_{i}$ autovalore di $f$, $\mathrm{E}(\lambda_{i})=\{ \underline{x}\in V:f(\underline{x})=\lambda_{i} \underline{x} \}$
 $f(\underline{x})=\lambda_{i}\underline{x}\iff f(\underline{x})-\lambda_{i}Id(\underline{x})=\underline{0}\iff(f-\lambda_{i} Id)(\underline{x})=\underline{0}$ $\iff(A-\lambda_{i}I)\underline{x}=\underline{0}$
-$E(\lambda_{i})=\mathrm{Ker}(f-\lambda_{i}Id)=\{ \underline{x}:(A-\lambda_{i}I)\underline{x}=\underline{0} \}$
+$\mathrm{E}(\lambda_{i})=\mathrm{Ker}(f-\lambda_{i}Id)=\{ \underline{x}:(A-\lambda_{i}I)\underline{x}=\underline{0} \}$
 
 # Molteplicità algebrica e geometrica
 $\lambda_{0}\in \mathbb{R}$ autovalore di $f$
 La molteplicità algebrica di $\lambda_{0}$, $\mathrm{a(\lambda_{0})}$, è la molteplicità di $\lambda_{0}$ come radice di $\chi_{f}(\lambda)$
-La molteplicità geometrica di $\lambda_{0}$, $\mathrm{g}(\lambda_{0})$, è la dimensione dell'autospazio $E(\lambda_{0})$
+La molteplicità geometrica di $\lambda_{0}$, $\mathrm{g}(\lambda_{0})$, è la dimensione dell'autospazio $\mathrm{E}(\lambda_{0})$
 $1\leq \mathrm{g}(\lambda_{0})\leq \mathrm{a}(\lambda_{0})$
 
 # Criterio di diagonalizzabilità
 $f$ è diagonalizzabile $\iff \chi_{f}(\lambda)$ è totalmente riducibile e $\mathrm{a}(\lambda_{i})=\mathrm{g}(\lambda_{i})\;\;\forall\lambda_{i}$
+Dimostrazione: "$\impliedby$"
+$$\begin{flalign}\sum_{i=1}^{r} \mathrm{g}(\lambda_{i})=\sum_{i=1}^{r} \mathrm{a}(\lambda_{i})=\mathrm{dim}(V) &&\end{flalign}$$
+$g_{i}=\mathrm{g}(\lambda_{i})$
+$A_{i}=\{ \underline{a}_{i1},\dots,\underline{a}_{ig_{i}} \}$ base di $\mathrm{E}(\lambda_{i})$
+$(\mu_{11}\underline{a}_{11}+{\dots}+\mu_{1g_{1}}\underline{a}_{1g_{1}})+{\dots}+(\mu_{r1}\underline{a}_{r1}+{\dots}+\mu_{rg_{r}}\underline{a}_{rg_{r}})=\underline{w}_{1}+{\dots}+\underline{w}_{r}=0$ e $\{ \underline{w}_{1},\dots,\underline{w}_{r} \}$ è linearmente indipendente $\implies \underline{w}_{1},\dots,\underline{w}_{r}=0\implies \mu_{i1},\dots,\mu_{ig_{i}}=0\;\;\forall i\in \{ 0,\dots,r \}$
+
+$f$ endomorfismo, $\mathrm{dim}(V)=n$, $\lambda_{1},\dots,\lambda_{k}$ autovalori di $f$ ($k\leq n$)
+$f$ è diagonalizzabile $\iff$
+$$\begin{flalign}\sum_{i=1}^{r} \mathrm{g}(\lambda_{i})=\sum_{i=1}^{r} \mathrm{a}(\lambda_{i})=\mathrm{dim}(V) &&\end{flalign}$$
+
+$f$ endomorfismo tale che $\chi_{f}(\lambda)$ è totalmente riducibile e $\mathrm{a}(\lambda_{i})=1 \implies f$ è diagonalizzabile
+
+$f$ endomorfismo diagonalizzabile, $A\in M_{n}(\mathbb{R})$ matrice rappresentativa $\implies$
+$$\begin{flalign}\det(A)=\prod_{i=0}^{n} \lambda_{i} &&\end{flalign}$$
+
+# Matrici diagonalizzanti e cambiamenti di base
+$f$ diagonalizzabile, $A$ base di $V$, $M=M_{A}^{A}(f)$, $\underline{v}_{1},\dots,\underline{v}_{n}$ autovettori
+$B=\{ \underline{v}_{1},\dots,\underline{v}_{n} \}$ è una base di $V$
+$M_{B}^{A}=[\begin{array}{c|c|c}\underline{v}_{1} & \dots & \underline{v}_{n}\end{array}]$
+$$\begin{flalign}M_{B}^{B}(f)=M_{A}^{B}M_{A}^{A}(f)M_{B}^{A}=\begin{bmatrix}
+\lambda_{1} & \dots & 0 \\
+\dots & & \dots \\
+0 & \dots & \lambda_{n}
+\end{bmatrix} &&\end{flalign}$$
+
+# Endomorfismi simmetrici
+$V$ spazio vettoriale euclideo, $f$ endomorfismo è simmetrico se $f(\underline{v})\cdot \underline{w}=\underline{v}\cdot f(\underline{w})\;\;\forall \underline{v},\underline{w}\in V$
+
+$f$ endomorfismo simmetrico, $\lambda_{1},\lambda_{2}$ autovalori distinti
+$\underline{v}_{1}\in \mathrm{E}(\lambda_{1}),\underline{v}_{2}\in \mathrm{E}(\lambda_{2})\implies \underline{v}_{1}\cdot \underline{v}_{2}=\underline{0}$
+Dimostrazione: $f(\underline{v}_{1})\cdot \underline{v}_{2}=\underline{v}_{1}\cdot f(\underline{v}_{2})\iff\lambda_{1}\underline{v}_{1}\cdot\underline{v}_{2}=\underline{v}_{1}\cdot\lambda_{2}\underline{v}_{2}\iff$ $(\lambda_{1}-\lambda_{2})(\underline{v}_{1}\cdot \underline{v}_{2})=0\implies \underline{v}_{1}\cdot \underline{v}_{2}=0$
+
+# Teorema spettrale
+$V$ spazio vettoriale euclideo, $f$ endomorfismo simmetrico $\implies \exists$ una base di $V$ fatta di autovalori di $f$ e $f$ è diagonalizzabile
+
+$f$ è simmetrico $\iff M_{B}^{B}(f)$ è simmetrica, $B$ base ortonormale di $V$

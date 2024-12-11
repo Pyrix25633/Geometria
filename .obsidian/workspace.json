@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diagonalizzabilità.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagonalizzabilità"
+              "title": "README"
             }
           },
           {
@@ -194,18 +194,18 @@
   },
   "active": "0fc790786647ded3",
   "lastOpenFiles": [
-    "Spazi vettoriali euclidei.md",
-    "Diagonalizzabilità.md",
-    "Basi.md",
-    "Determinante.md",
-    "Dipendenza-indipendenza lineare.md",
-    "Funzioni lineari.md",
-    "Matrici e sistemi lineari.md",
-    "Spazi vettoriali.md",
     "Vettori geometrici.md",
+    "Spazi vettoriali euclidei.md",
+    "Spazi vettoriali.md",
+    "Matrici e sistemi lineari.md",
+    "Funzioni lineari.md",
+    "Distanza.md",
+    "Dipendenza-indipendenza lineare.md",
+    "Diagonalizzabilità.md",
+    "Determinante.md",
+    "Basi.md",
     "README.md",
     "quiver.svg",
-    "Distanza.md",
     "Formulario formattato.md",
     "Formulario.md",
     "Numeri complessi.md",

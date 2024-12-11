@@ -8,3 +8,4 @@
 - [Determinante](Determinante.md)
 - [Funzioni lineari](Funzioni%20lineari.md)
 - [Spazi vettoriali euclidei](Spazi%20vettoriali%20euclidei.md)
+- [Diagonalizzabilità](Diagonalizzabilità.md)
