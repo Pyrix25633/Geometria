@@ -77,6 +77,7 @@ $\{ \underline{u}_{1},\dots,\underline{u}_{p} \}$ base ortonormale di $\langle S
   $f(\underline{u}_{p})=(\underline{u}_{p}\cdot \underline{u}_{1},\dots,\underline{u}_{p}\cdot \underline{u}_{p})=(0,\dots,1)$
   $\{ f(\underline{u}_{1}),\dots,f(\underline{u}_{p}) \}=\{ \underline{e}_{1},\dots,\underline{e}_{p} \}\implies \mathrm{Im}(f)=\mathbb{R}^{p}$ e $\mathrm{dim}(\mathrm{Im}(f))=p=\mathrm{dim}(\langle S\rangle)$
 - $\mathrm{Ker}(f)=\{ \underline{v}\in V:f(\underline{v})=\underline{0} \}=\{ \underline{v}\in V:\forall i\in \{ 1,\dots,p \}\;\;\underline{v}\cdot \underline{u}_{i}=0 \}=\langle S\rangle^{\perp}$$\implies \mathrm{dim}(\mathrm{Ker}(f))=\mathrm{dim}(\langle S\rangle^{\perp})$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Matrici ortogonali
 $A\in M_{n}(\mathbb{R})$ è ortogonale se

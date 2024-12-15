@@ -1,5 +1,9 @@
 {
   "accentColor": "",
   "baseFontSize": 18,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "page-breaks"
+  ],
+  "nativeMenus": false
 }

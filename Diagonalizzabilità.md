@@ -34,6 +34,7 @@ Dimostrazione:
 $B$ base di $V$, $A=M_{B}^{B}(f)$
 $\lambda$ è un autovalore di $f\iff \exists \underline{x}\in V:f(\underline{x})=\lambda \underline{x}\iff A\underline{x}=\lambda \underline{x}=\lambda I\underline{x}$
 $\iff(A-\lambda I)\underline{x}=\underline{0}\iff$ il sistema lineare omogeneo ammette soluzioni non banali $\mathrm{\det}(A-\lambda I)=0$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Polinomio caratteristico
 Il polinomio caratteristico di $f$ è il polinomio nella variabile $\lambda$
@@ -73,6 +74,7 @@ $f$ endomorfismo tale che $\chi_{f}(\lambda)$ è totalmente riducibile e $\mathr
 
 $f$ endomorfismo diagonalizzabile, $A\in M_{n}(\mathbb{R})$ matrice rappresentativa $\implies$
 $$\begin{flalign}\det(A)=\prod_{i=0}^{n} \lambda_{i} &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Matrici diagonalizzanti e cambiamenti di base
 $f$ diagonalizzabile, $A$ base di $V$, $M=M_{A}^{A}(f)$, $\underline{v}_{1},\dots,\underline{v}_{n}$ autovettori

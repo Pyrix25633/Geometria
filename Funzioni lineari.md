@@ -37,6 +37,7 @@ Le seguenti condizioni sono equivalenti:
 - $\mathrm{Im}(f)=V'$
 - $f$ è suriettiva
 - Se $\{ \underline{v}_{1},\dots,\underline{v}_{n} \}$ è un sistema di generatori di $V$ e $f:V\to V'$ funzione lineare $\implies \{ f(\underline{v}_{1}),\dots,f(\underline{v}_{n}) \}$ è un sistema di generatori di $\mathrm{Im}(f)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Funzioni lineari definite da matrici
 $V=\mathbb{R}^{n},\;V'=\mathbb{R}^{m},\;A\in M_{m\times n}(\mathbb{R}),\;T_{A}:V\to V',\;T_{A}(\underline{x})=A\underline{x}$
@@ -71,6 +72,7 @@ $$\begin{flalign}f(\underline{a}_{1})=\sum_{i=1}^{m} \alpha_{i1}\underline{b}_{i
 $\dots$
 $$\begin{flalign}f(\underline{a}_{n})=\sum_{i=1}^{m} \alpha_{in}\underline{b}_{i} &&\end{flalign}$$
 $M_{A}^{B}(f)=[\alpha_{ij}]\in M_{m\times n}(\mathbb{R})$ è detta matrice rappresentativa di $f$ rispetto alle basi $A$ e $B$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Coordinate e matrici rappresentative
 $V,V'$ spazi vettoriali reali con basi $A,B$, $f:V\to V'$ funzione lineare, $M=M_{A}^{B}(f)$
@@ -84,6 +86,7 @@ Il diagramma è "commutativo", $T_{M}=T_{B}\circ f\circ T_{A}^{-1}$, $f=T_{B}^{-
 
 $\mathrm{Ker}(T_{M})=T_{A}\mathrm{Ker(f)}\;\;\mathrm{Ker}(f)=T_{A}^{-1}\mathrm{Ker}(T_{M})$
 $\mathrm{Im}(T_{M})=T_{B}\mathrm{Im}(f)\;\;\mathrm{Im}(f)=T_{B}^{-1}\mathrm{Im}(T_{M})$
+
 # Cambiamento di base
 $V=V'$, $A,B$ due basi distinte di $V$, $f=Id_{V}:V\to V,\;f(\underline{v})=\underline{v}$
 $M_{A}^{B}:=M_{A}^{B}(Id_{V})$ è detta matrice di transizione dalla base $A$ alla base $B$

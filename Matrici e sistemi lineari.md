@@ -50,6 +50,7 @@ Proprietà:
 - Associativa: $(A+B)+C=A+(B+C)$
 - Elemento neutro: $A+\underline{0}=A$
 - Elemento opposto: $A+(-A)=\underline{0}$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Prodotto per uno scalare
 $A \in M_{m\times n}(\mathbb{R}),\;\lambda \in \mathbb{R}$
@@ -95,6 +96,7 @@ $\lambda\neq 0,\;\mu\neq 0$
 - Scambio di due righe $R_{i}$ e $R_{j}$: $S_{ij}$
 - Prodotto di una riga $R_{i}$ per uno scalare $\lambda$: $D_{j}(\lambda)$
 - Somma di una riga $R_{i}$ con un'altra $R_{j}$ moltiplicata per uno scalare $\mu$: $E_{ij}(\mu)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Matrice a scalini
 Una matrice è detta a scalini se $\forall R_{i},R_{i+1}$ coppia di righe consecutive si verifica una delle seguenti condizioni:
@@ -178,6 +180,7 @@ $A\in M_{n}(\mathbb{R})$
 2) $\mathrm{rref}(B)=(I_{n}\mid P)=(I_{n}\mid A^{-1})$
 Dimostrazione:
 $\mathrm{rref(B)}=PB=(PA\mid PI_{n})=(\mathrm{rref}(A)\mid P)=(I_{n}\mid A^{-1})$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Soluzioni di un sistema lineare tramite matrice inversa
 $A\in M_{n}(\mathbb{R})$ invertibile, $A\underline{x}=\underline{b}$ sistema lineare

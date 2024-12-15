@@ -30,6 +30,7 @@ Dimostrazione:
 - Se $A$ non è a scalini, sia $A'$ una sua forma a scalini $\implies \mathrm{R}(A)=\mathrm{R}(A')$:
 	- Le righe di $A'$ sono combinazioni lineari delle righe di $A$, quindi $\mathrm{R}(A')\subset \mathrm{R}(A)$
 	- Le righe di $A$ sono combinazioni lineari delle righe di $A'$ poiché le operazioni elementari sono tutte reversibili, quindi $\mathrm{R}(A)\subset \mathrm{R}(A')$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Coordinate
 $V\neq \{ \underline{0} \}$ spazio vettoriale finitamente generato, $B=\{ \underline{b}_{1},\dots,\underline{b}_{n} \}$ base di $V$
