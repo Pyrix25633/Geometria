@@ -37,7 +37,7 @@ Si può quindi semplificare il calcolo del determinante riducendo a scalini una 
 # Determinante, rango e identità
 $A\in M_{n}(\mathbb{R})$
 Le seguenti condizioni sono equivalenti:
-- $\det(A)=0$
+- $\det(A)\neq0$
 - $rg(A)=n$
 - $A$ è invertibile
 

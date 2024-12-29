@@ -119,7 +119,7 @@ Una matrice è ridotta per righe se:
 
 # Riduzione all'indietro
 Si parte da una matrice a scalini
-- Per ogni pivot $p_{k}$ si esegue l'operazione $D_{k}\left( \frac{1}{k} \right)$ in modo che $p_{k}$ diventi $1$
+- Per ogni pivot $p_{k}$ si esegue l'operazione $D_{k}\left( \frac{1}{p_{k}} \right)$ in modo che $p_{k}$ diventi $1$
 - Si riducono a $0$ tutti i termini della colonna di $p_{k}$ tramite operazioni del tipo $E_{ik}(\mu)$
 
 # Teorema di Rouchè-Capelli

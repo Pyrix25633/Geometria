@@ -94,6 +94,6 @@ $\underline{v}_{1}\in \mathrm{E}(\lambda_{1}),\underline{v}_{2}\in \mathrm{E}(\l
 Dimostrazione: $f(\underline{v}_{1})\cdot \underline{v}_{2}=\underline{v}_{1}\cdot f(\underline{v}_{2})\iff\lambda_{1}\underline{v}_{1}\cdot\underline{v}_{2}=\underline{v}_{1}\cdot\lambda_{2}\underline{v}_{2}\iff$ $(\lambda_{1}-\lambda_{2})(\underline{v}_{1}\cdot \underline{v}_{2})=0\implies \underline{v}_{1}\cdot \underline{v}_{2}=0$
 
 # Teorema spettrale
-$V$ spazio vettoriale euclideo, $f$ endomorfismo simmetrico $\implies \exists$ una base di $V$ fatta di autovalori di $f$ e $f$ è diagonalizzabile
+$V$ spazio vettoriale euclideo, $f$ endomorfismo simmetrico $\implies \exists$ una base di $V$ fatta di autovettori di $f$ e $f$ è diagonalizzabile
 
 $f$ è simmetrico $\iff M_{B}^{B}(f)$ è simmetrica, $B$ base ortonormale di $V$
