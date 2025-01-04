@@ -92,7 +92,7 @@ a_{m_{1}} & \dots & a_{mn} & b_{m}
 &&\end{flalign}$$
 
 # Operazioni elementari
-$\lambda\neq 0,\;\mu\neq 0$
+$\lambda,\mu\neq 0$
 - Scambio di due righe $R_{i}$ e $R_{j}$: $S_{ij}$
 - Prodotto di una riga $R_{i}$ per uno scalare $\lambda$: $D_{j}(\lambda)$
 - Somma di una riga $R_{i}$ con un'altra $R_{j}$ moltiplicata per uno scalare $\mu$: $E_{ij}(\mu)$
@@ -130,7 +130,7 @@ Se tale sistema è compatibile allora:
 
 # Soluzioni di un sistema lineare
 $A\in M_{m\times n}(\mathbb{R})$
-$A\underline{x}=\underline{0}$ sistema lineare omogeneo, $\underline{v},\underline{w}$ vettori colonna soluzioni del sistema (ovvero $A\underline{v}=\underline{0},\;\underline{A}w=\underline{0}$), $\lambda,\mu \in \mathbb{R}$
+$A\underline{x}=\underline{0}$ sistema lineare omogeneo, $\underline{v},\underline{w}$ vettori colonna soluzioni del sistema (ovvero $A\underline{v}=\underline{0},\;A\underline{w}=\underline{0}$), $\lambda,\mu \in \mathbb{R}$
 Anche la combinazione lineare $\lambda \underline{v}+\mu \underline{w}$ è soluzione del sistema poiché $A(\lambda \underline{v}+\mu \underline{w})=\lambda A\underline{v}+\mu A\underline{w}=\lambda\underline{0}+\mu\underline{0}=\underline{0}$
 
 ### Nucleo

@@ -2,6 +2,7 @@
 Uno spazio vettoriale è un'insieme $V$ (i cui elementi sono vettori) su cui sono definite due operazioni:
 - Somma tra elementi
 - Prodotto di un elemento per uno scalare
+
 che soddisfano le seguenti proprietà:
 $\forall \underline{v},\underline{w},\underline{u}\in V,\;\lambda,\mu \in \mathbb{R}$
 - Commutativa: $\underline{v}+\underline{w}=\underline{w}+\underline{v}$
@@ -29,7 +30,7 @@ v_{i1} \\
 \dots \\
 v_{in}
 \end{bmatrix} &&\end{flalign}$$
-e si accostano i $k$ vettori a formare una matrice $A=\begin{bmatrix}\begin{array}{c|c|c}\underline{v}_{1}&\dots&\underline{v}_{k}\end{array}\end{bmatrix}$,considerando il vettore colonna composto dagli scalari
+e si accostano i $k$ vettori a formare una matrice $A=\begin{bmatrix}\begin{array}{c|c|c}\underline{v}_{1}&\dots&\underline{v}_{k}\end{array}\end{bmatrix}$, considerando il vettore colonna composto dagli scalari
 $$\begin{flalign}\underline{\lambda}=\begin{bmatrix}
 \lambda_{1} \\
 \dots \\
@@ -44,6 +45,7 @@ $V$ spazio vettoriale reale
 Un sottoinsieme non vuoto di $V$, $U\subset V$, è detto sottospazio vettoriale di $V$ se è chiuso rispetto alle due operazioni di $V$:
 - $\forall \underline{u}_{1},\underline{u}_{2}\in U\;\;\;\underline{u}_{1}+\underline{u}_{2}\in U$
 - $\forall \underline{u}\in U,\lambda \in \mathbb{R}\;\;\;\lambda \underline{u}\in U$
+
 o equivalentemente $\forall \underline{u}_{1},\underline{u}_{2}\in U,\lambda_{1},\lambda_{2} \in \mathbb{R}\;\;\;\lambda_{1} \underline{u}_{1}+\lambda_{2} \underline{u}_{2}\in U$
 Inoltre $\underline{0}\in U$, infatti $\forall \underline{u}\in U\;-1\cdot \underline{u}=-\underline{u}\in U \implies \underline{u}-\underline{u}\in U$
 Se $U$ contiene almeno un vettore non nullo, allora $U$ contiene infiniti elementi

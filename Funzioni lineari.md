@@ -2,6 +2,7 @@ $V,V'$ spazi vettoriali reali
 Una funzione lineare $f:V\to V'$ è una funzione tale che:
 - $f(\underline{v}+\underline{w})=f(\underline{v})+f(\underline{w})\;\;\;\forall \underline{v},\underline{w}\in V$
 - $f(\lambda \underline{v})=\lambda f(\underline{v})\;\;\;\forall \underline{v}\in V,\;\lambda \in \mathbb{R}$
+
 Alternativamente $f(\lambda \underline{v}+\mu \underline{w})=\lambda f(\underline{v})+\mu f(\underline{w})\;\;\;\forall \underline{v},\underline{w}\in V,\;\lambda,\mu \in \mathbb{R}$
 $V$ è detto dominio di $f$
 $V'$ è detto codominio di $f$

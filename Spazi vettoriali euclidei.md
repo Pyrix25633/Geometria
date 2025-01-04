@@ -5,6 +5,7 @@ Un prodotto scalare su $V$ è una funzione lineare che $\forall \underline{v},\u
 - $(\lambda \underline{v})\cdot \underline{w}=\lambda(\underline{v}\cdot \underline{w})\;\;\;\forall \underline{v},\underline{w}\in V,\;\lambda \in \mathbb{R}$
 - $\underline{v}\cdot(\underline{w}+\underline{u})=\underline{v}\cdot \underline{w}+\underline{v}\cdot \underline{u}\;\;\;\forall \underline{v},\underline{w},\underline{u}\in V$
 - $\underline{v}\cdot \underline{v}\geq0\;\;\;\forall \underline{v}\in V$ e $\underline{v}\cdot \underline{v}=0\iff \underline{v}=\underline{0}$
+
 Uno spazio vettoriale reale dotato di prodotto scalare è detto spazio vettoriale euclideo
 
 # Disuguaglianza di Cauchy-Schwartz

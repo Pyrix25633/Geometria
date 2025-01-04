@@ -23,6 +23,7 @@ $\underline{v}\neq \underline{0},\;\lambda\neq0$
 $\lambda  \underline{v}$ è un vettore con la stessa direzione, modulo $\lambda\cdot |\underline{v}|$ e verso:
 - concorde se $\lambda>0$
 - opposto se $\lambda<0$
+
 Se invece $\lambda=0$ allora $\lambda  \underline{v}=\underline{0}$
 
 # Versore
@@ -34,6 +35,7 @@ $$\begin{flalign}\frac{\underline{v}}{|\underline{v}|} &&\end{flalign}$$
 Il prodotto scalare è lo scalare
 $\underline{v}\cdot  \underline{w}=|\underline{v}|\cdot |\underline{w}|\cdot \cos(\sigma)$
 $\underline{v}\cdot  \underline{w}=x_{1}x_{2}+y_{1}y_{2}+z_{1}z_{2}$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Modulo
 $|\underline{v}|=\sqrt{x^{2}+y^{2}+z^{2}}$
@@ -50,6 +52,7 @@ Il prodotto vettoriale $\underline{v}\times  \underline{w}$ è:
 	- modulo: $|\underline{u}|=|\underline{v}||\underline{w}|\cos(\sigma)$
 	- direzione: ortogonale a $\underline{v}$ e $\underline{w}$
 	- verso: dato dalla "regola della mano destra"
+
 $\underline{v}\times  \underline{w}=(v_{2}w_{3}-v_{3}w_{2},\;v_{3}w_{1}-v_{1}w_{3},\;v_{1}w_{2}-v_{2}w_{1})$
 
 Se $\underline{v},\underline{w}\neq \underline{0}$  e non paralleli $\implies |\underline{v}\times \underline{w}|$ è l'area del parallelogramma individuato da $\underline{v}$ e $\underline{w}$
@@ -65,12 +68,12 @@ Proprietà:
 # Prodotto misto
 Il prodotto misto è lo scalare $\underline{v}\cdot(\underline{w}\times  \underline{u})$
 
-Se $\underline{v},\underline{w},\underline{u}\neq\underline{0}$ e non paralleli $\implies |\underline{v}\cdot(\underline{w}\times \underline{u})|$ è il volume del parallelepipedo individuato da $\underline{v}$, $\underline{w}$ e $\underline{u}$
+Se $\underline{v},\underline{w},\underline{u}\neq\underline{0}$ e non paralleli $\implies \underline{v}\cdot(\underline{w}\times \underline{u})$ è il volume del parallelepipedo individuato da $\underline{v}$, $\underline{w}$ e $\underline{u}$
 Dimostrazione:
 $S=(\underline{w}\times \underline{u}),\;h=|\underline{v}|\cos(\sigma) \implies S\cdot h=|\underline{w}\times \underline{u}||\underline{v}|\cos(\sigma)$
 
 # Punto in coordinate
-Ad ogni punto $A$ è definito da una terna di coordinate $A=(x,y,z)$
+Ogni punto $A$ è definito da una terna di coordinate $A=(x,y,z)$
 
 # Vettore geometrico in coordinate
 $\underline{v}=\overrightarrow{AB}=(x_{B}-x_{A},\;y_{B}-y_{A},\;z_{B}-z_{A})$
