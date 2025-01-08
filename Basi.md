@@ -36,7 +36,7 @@ Dimostrazione:
 $V\neq \{ \underline{0} \}$ spazio vettoriale finitamente generato, $B=\{ \underline{b}_{1},\dots,\underline{b}_{n} \}$ base di $V$
 $$\begin{flalign}\underline{v}\in V\implies \underline{v}=\sum_{i=1}^{n} v_{i}\underline{b}_{i} &&\end{flalign}$$
 Gli scalari $v_{1},\dots,v_{n}\in \mathbb{R}$ sono detti coordinate di $\underline{v}$ rispetto alla base $B$
-$T_{B}:V\to \mathbb{R}^{n},\;T_{B}(\underline{v})=(v_{1},\dots,v_{n})$ è una funzione che associa ad ogni $\underline{v}\in V$ una ennupla, ossi ail vettore delle coordinate di $\underline{v}$ rispetto a $B$
+$T_{B}:V\to \mathbb{R}^{n},\;T_{B}(\underline{v})=(v_{1},\dots,v_{n})$ è una funzione che associa ad ogni $\underline{v}\in V$ una ennupla, ossia il vettore delle coordinate di $\underline{v}$ rispetto a $B$
 
 $T_{B}$ è biunivoca e lineare
 

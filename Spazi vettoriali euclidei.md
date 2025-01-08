@@ -35,6 +35,7 @@ Dimostrazione:
 $\lambda_{1}\underline{v}_{1}+{\dots}+\lambda_{m}\underline{v}_{m}=\underline{0}$ $\underline{v}_{i}\cdot(\lambda_{1}\underline{v}_{1}+{\dots}+\lambda_{m}\underline{v}_{m})=\lambda_{1}\underline{v}_{1}\cdot \underline{v}_{i}+{\dots}+\lambda_{i}\underline{v}_{i}\cdot \underline{v}_{i}+{\dots}+\lambda_{m}\underline{v}_{m}\cdot \underline{v}_{i}=\lambda_{i}\underline{v}_{i}\cdot \underline{v}_{i}=0\implies\lambda_{i}=0$
 
 Se $\mathrm{dim}(V)=n$ e $\underline{v}_{1},\dots,\underline{v}_{n}$ sono ortogonali a coppie $\implies \{ \underline{v}_{1},\dots,\underline{v}_{n} \}$ è una base
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Proiezioni ortogonali
 $\underline{u}\ne\underline{0}\in V$
@@ -84,6 +85,7 @@ $\{ \underline{u}_{1},\dots,\underline{u}_{p} \}$ base ortonormale di $\langle S
 $A\in M_{n}(\mathbb{R})$ è ortogonale se
 - è invertibile
 - $A^{-1}=A^{T}$
+
 $O_{n}(\mathbb{R})=\{ A\in M_{n}(\mathbb{R}):AA^{T}=A^{T}A=I_{n} \}$
 
 Se $A\in O_{n}(\mathbb{R})\implies \det(A)=\pm1$

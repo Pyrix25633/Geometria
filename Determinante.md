@@ -34,6 +34,7 @@ $A,S_{ij},D_{i}(\lambda),E_{ij}(\mu)\in M_{n}(\mathbb{R})$
 - $\det(E_{ij}(\mu))=1\implies \det(E_{ij}(\mu)\cdot A)=\det(A)$
 
 Si può quindi semplificare il calcolo del determinante riducendo a scalini una matrice e moltiplicando il suo determinante per il prodotto dei determinanti delle operazioni elementari utilizzate
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Determinante, rango e identità
 $A\in M_{n}(\mathbb{R})$
@@ -58,7 +59,7 @@ $\underline{v}\cdot(\underline{w}\times \underline{u})=\det \begin{bmatrix}v_{1}
 
 # Determinante e geometria nello spazio
 ### Complanarità di due rette
-$r:P+t\cdot\underline{v},\;\;r':Q+s\cdot\underline{w}$
+$r:P+t\cdot\underline{v},\;\;r':Q+s\cdot\underline{v}'$
 $r$ e $r'$ sono complanari $\iff \{ \underline{v},\underline{v}',\overrightarrow{PQ} \}$ sono linearmente dipendenti $\iff \det \begin{bmatrix}\begin{array}{c|c|c}\underline{v}&\underline{v}'&\overrightarrow{PQ}\end{array}\end{bmatrix}=0$
 
 ### Equazione cartesiana di un piano
